@@ -7,3 +7,8 @@ __pycache__/
 .DS_Store
 .env/
 .vscode/
+kaggle.json
+*.pkl
+*.csv
+*.xlsx
+outputs/

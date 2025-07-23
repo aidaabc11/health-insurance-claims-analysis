@@ -1,0 +1,41 @@
+2. پروژه رو به یک مخزن Git تبدیل کن:
+git init
+git add .
+git commit -m "Initial commit: project structure and requirements"
+git remote add origin https://github.com/YOUR_USERNAME/insurance-fraud-llm.git
+git branch -M main
+git push -u origin main
+
+3. ساخت virtual environment (اگر هنوز نساختی):
+
+در ترمینال VS Code:
+
+
+python -m venv venv
+.\venv\Scripts\activate
+✅ 3. نصب پکیج‌ها
+
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+✅ 4. ذخیره لیست پکیج‌ها
+
+pip freeze > requirements.txt
+
+
+
+1.1.1 - نصب kaggle CLI:
+
+pip install kaggle
+
+
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+pip install openai langchain llama-index transformers
+
+
+باز کردن ترمینال (CMD) یا Anaconda Prompt
+
+اگر از Anaconda استفاده می‌کنی:
+
+
+cd D:\Learning\Python\health-insurance-claim-analysis
+jupyter notebook
+این دستور باعث میشه Jupyter توی همین مسیر باز بشه.
