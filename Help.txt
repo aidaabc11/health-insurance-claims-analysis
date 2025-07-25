@@ -39,3 +39,8 @@ pip install openai langchain llama-index transformers
 cd D:\Learning\Python\health-insurance-claim-analysis
 jupyter notebook
 این دستور باعث میشه Jupyter توی همین مسیر باز بشه.
+
+
+git add notebooks/02_data_cleaning.ipynb outputs/cleaned_data_v1.csv
+git commit -m "Step 2: Data cleaning and preprocessing"
+git push origin main
